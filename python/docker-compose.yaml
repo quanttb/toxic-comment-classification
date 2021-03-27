@@ -1,0 +1,16 @@
+version: '3'
+
+networks:
+  tcc-net:
+
+services:
+  toxic-comment-classification:
+    container_name: toxic-comment-classification
+    build: .
+    image: toxic-comment-classification
+    working_dir: /app/src
+    tty: true
+    volumes:
+      - ./src:/app/src
+    networks:
+      - tcc-net

@@ -1,0 +1,9 @@
+name: myenv
+dependencies:
+  - tensorflow
+  - keras
+  - seaborn
+  - nltk
+  - pandas
+  - joblib
+  # - tensorflowjs
