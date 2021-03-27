@@ -1,0 +1,12 @@
+{
+  "name": "toxic-comment-classification",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^3.3.0"
+  }
+}
